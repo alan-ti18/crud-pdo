@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+.box-login{
+    margin: 80px auto 0;
+    height: auto;
+    width: 400px;
+    border: 2px solid #222;
+    padding: 40px 0 0;
+    background-color: rgba(100, 100, 50, .05);
+    border-radius: 20px;
+    position: relative;
+}
+
+.box-login h1, .box-cadastrar h1{
+    text-align: center;
+    font-family: Arial;
+}
+
+.box-login .input-group, .box-cadastrar .input-group{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box-login .input-group:last-of-type, .box-cadastrar .input-group:last-of-type{
+    margin-bottom: 20px;
+}
+
+.box-login label{
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    padding-left: 45px;
+}
+
+.box-cadastrar label{
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    padding-left: 70px;
+}
+
+.box-login input, .box-cadastrar input{
+    padding: 7px;
+    width: 80%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    outline: none;
+}
+
+.box-login .btn-submit, .box-cadastrar .btn-submit{
+    text-align: center;
+}
+
+.box-login input[type=submit], .box-cadastrar input[type=submit]{
+    margin-top: 20px;
+    width: 40%;
+    background-color: darkblue;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.box-login input[type=submit]{
+    margin-top: 20px;
+    width: 40%;
+    background-color: darkblue;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.box-cadastrar input[type=submit]{
+    margin: 20px 0;
+    width: 30%;
+    background-color: darkblue;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.box-login input[type=submit]:hover, .box-cadastrar input[type=submit]:hover{
+    background-color: blue;
+    color: #FFF;
+}
+
+.box-login a{
+    text-decoration: none;
+    /*position: absolute;
+    bottom: 5px;*/
+    margin: 30px 0 10px;
+    display: block;
+    text-align: center;
+}
+
+.box-login a:hover{
+    text-decoration: #222222;
+}
+
+.box-cadastrar{
+    margin: 80px auto 0;
+    height: auto;
+    width: 600px;
+    border: 2px solid #222;
+    padding: 40px 0 0;
+    background-color: rgba(100, 100, 50, .05);
+    border-radius: 20px;
+    position: relative;
+}
+
